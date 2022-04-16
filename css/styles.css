@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-red: #f03c42;
+  --color-blue: #222374;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+header {
+  background-color: var(--color-red);
+  height: 100px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 30px;
+  height: 30px;
+  top: 35px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.nav-card{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+}
+.nav-card img{
+ margin: 10px;
+}
+
+nav h2 {
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#about-us {
+  background-color: var(--color-blue);
+  font-size: 14px;
+  color: var(--color-black);
+}
+#about-us h1 {
+  color: var(--color-white);
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+#about-us h2 {
+  font-size: 20px;
+}
+
+.about-us-card {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  height: 127px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.container-card {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 8px;
+  height: 127px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.container-card h2 {
+  font-size: 20px;
+}
+.container-card p {
+  font-size: 14px;
+}
+#modalities {
+  color: var(--color-red);
+}
+#modalities h1{
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+footer {
+  background-color: var(--color-black);
+  height: 15vw;
+  padding: 5vw;
+  
+}
+.footer-container{
+
+height: 262px;
+background-color: var(--color-black);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+.footer-content {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer-content span{
+ display: flex;
+ align-items: center;
+
+
+}
+.footer-content span img{
+ padding: 5px 10px;
+}
+.footer-info p{
+color: var(--color-white);
+text-align: center;
+font-size: 14px;
+}
